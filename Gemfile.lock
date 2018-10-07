@@ -24,6 +24,11 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_model_serializers (0.10.7)
+      actionpack (>= 4.1, < 6)
+      activemodel (>= 4.1, < 6)
+      case_transform (>= 0.2)
+      jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
     activejob (5.2.1)
       activesupport (= 5.2.1)
       globalid (>= 0.3.6)
@@ -54,6 +59,8 @@ GEM
     builder (3.2.3)
     byebug (10.0.2)
     cancancan (2.3.0)
+    case_transform (0.2)
+      activesupport
     coderay (1.1.2)
     colorize (0.8.1)
     concurrent-ruby (1.0.5)
@@ -74,6 +81,7 @@ GEM
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.1)
+    jsonapi-renderer (0.2.0)
     kaminari (1.1.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.1.1)
@@ -196,6 +204,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers (~> 0.10.0)
   annotate
   awesome_print
   bootsnap (>= 1.1.0)
