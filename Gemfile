@@ -40,6 +40,21 @@ end
 # AWESOME_PRINT - BETTER OBJECTS
 gem 'awesome_print'
 
+# CANCANCAN - ABILITY
+gem 'cancancan', '~> 2.0'
+
+# DEVISE - LOGIN
+gem 'devise'
+
+# DEVISE_TOKEN_AUTH - TOKEN AUTHENTICATION
+gem 'devise_token_auth'
+
+# KAMINARI - PAGINATION
+gem 'kaminari'
+
+# PRY-RAILS - DEBUG
+gem 'pry-rails'
+
 # RACK-ATTACK - BLOCKING AND THROTTLING ABUSIVE REQUESTS
 gem 'rack-attack'
 
