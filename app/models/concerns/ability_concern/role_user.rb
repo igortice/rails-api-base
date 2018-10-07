@@ -3,6 +3,7 @@ module AbilityConcern::RoleUser
 
   included do
     def user
+      can [:index], User
     end
   end
 end

@@ -1,6 +1,8 @@
 class API::V1::BaseController < ApplicationController
   include CanCan::ControllerAdditions
 
+  alias_method :current_user, :current_v1_user
+
   before_action :authenticate_v1_user!
 
   rescue_from CanCan::AccessDenied do |exception|
