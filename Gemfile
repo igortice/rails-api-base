@@ -37,6 +37,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# ANNOTATE - COMMENT MODEL
+gem 'annotate'
+
 # AWESOME_PRINT - BETTER OBJECTS
 gem 'awesome_print'
 
@@ -60,6 +63,9 @@ gem 'rack-attack'
 
 # RACK-CORS - MAKING CROSS-ORIGIN AJAX POSSIBLE
 gem 'rack-cors', require: 'rack/cors'
+
+# RUBOCOP - CODE ANALYZER
+gem 'rubocop', require: false
 
 # SHOG - COLORFUL LOG
 gem 'shog'
