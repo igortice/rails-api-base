@@ -43,6 +43,9 @@ gem 'annotate'
 # ACTIVE_MODEL_SERIALIZERS - JSON MODEL SERIALIZERS
 gem 'active_model_serializers', '~> 0.10.0'
 
+# API-PAGINATION - PAGINATES IN HEADER
+gem 'api-pagination'
+
 # AWESOME_PRINT - BETTER OBJECTS
 gem 'awesome_print'
 
