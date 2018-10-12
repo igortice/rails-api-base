@@ -39,4 +39,6 @@ class User < ActiveRecord::Base
 
   include DeviseTokenAuth::Concerns::User
   include ::UserConcern::ConfigRoles
+
+  has_one :profile
 end
